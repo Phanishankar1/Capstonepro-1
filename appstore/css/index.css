@@ -2,7 +2,7 @@ div[id="1"]
 {
 	height:50px;
 	width:800px;
-	background-color: blue;
+	background-color:royalblue;
 	margin-left:400px;
 }
 div[id="2"]{
@@ -15,22 +15,33 @@ div[id="2"]{
 div[id="3"]{
 	height:200px;
 	width:500px;
-	background-color:green;
+	background-color:pink;
 	float:left;
-	background-image: url('image/pic3.jpg');
 	background-size:500px 200px;
 	border:1px;
 	border-radius:20px;
 }
+div[id="30"]
+{
+	height:200px;
+	width:160px;
+	background-color: yellow;
+	float:right;
+	border:1px solid skyblue;
+	background-image:url('../image/pic.jpg');
+	background-size:160px 200px;
+  border:1px;
+  border-radius: 20px;
+}
 div[id="4"]{
 	height:200px;
 	width:290px;
-	background-color:orange;
+	background-color:lightgreen;
 	float:left;
 	margin-left:5px;
 	margin-right:5px;
-	background-image:url('image/pic4.jpg');
-	background-color:290px 290px;
+
+	background-size:290px 290px;
 border:1px;
 	border-radius:20px;
 }
@@ -40,7 +51,7 @@ div[id="5"]{
 	background-color:yellowgreen;
 	float:left;
 	margin-top:5px;
-	background-image:url('image/pic6.png');
+	background-image:url('../image/pic6.png');
 	background-size: 250px 200px;
 	border:1px;
 	border-radius: 20px;
@@ -50,7 +61,7 @@ div[id="6"]{
 	width:250px;
 	background-color:blue;
 	float:left;
-	background-image:url('image/pic7.jpg');
+	background-image:url('../image/pic7.jpg');
 	background-size: 250px 200px;
 	margin-left:20px;
 	margin-top:5px;
@@ -61,7 +72,7 @@ div[id="7"]{
 	height:200px;
 	width:250px;
 	background-color:grey;
-	background-image:url('image/pic8.jpg');
+	background-image:url('../image/pic8.jpg');
 	background-size: 250px 200px;
 	float:left;
 	margin-left:20px;
@@ -87,8 +98,10 @@ float:right;
 margin-top:150px;
 margin-right:60px; 
 background-color:yellow;
-background-image: url('image/pic9.jpg');
+background-image: url('../image/pic9.jpg');
 background-size: 300px 500px;
+border:1px;
+border-radius:20px;
 }
 div[id="18"]
 {
@@ -96,7 +109,7 @@ div[id="18"]
 	width:300px;
 	background-color:red;
 	margin-left:40px;
-	 background-image:url('image/pic11 (2).jpg');
+	 background-image:url('../image/pic11 (2).jpg');
 	 background-size:300px 400px;
 	 background-color: royalblue;
 	 margin-top:10px; 
@@ -133,7 +146,7 @@ div[id="19"]{
 	height:150px;
 	width:150px;
 	background-color:blue;
-	background-image:url('image/pic12.jpg');
+	background-image:url('../image/pic12.jpg');
 	background-size:150px 150px;
 	float:left;
 margin-left: 20px;
@@ -145,7 +158,7 @@ div[id="20"]{
 	height:150px;
 	width:150px;
 	background-color:blue;
-	background-image:url('image/pic13.jpg');
+	background-image:url('../image/pic13.jpg');
 	background-size:150px 150px;
 	float:left;
 margin-left: 20px;
@@ -157,7 +170,7 @@ div[id="21"]{
 	height:150px;
 	width:150px;
 	background-color:blue;
-	background-image:url('image/pic14.jpg');
+	background-image:url('../image/pic14.jpg');
 	background-size:150px 150px;
 	float:left;
 margin-left: 20px;
@@ -196,8 +209,10 @@ div[id="16"]{
 	background-color:green;
 	float:left;
 	margin-left:70px;
-	background-image:url('image/pic16.jpg');
+	background-image:url('../image/pic16.jpg');
 	background-size: 300px 300px;
+	border:1px;
+	border-radius:20px;
 }
 div[id="17"]{
 	height:300px;
@@ -205,8 +220,10 @@ div[id="17"]{
 	background-color:green;
 	float:left;
 	margin-left:70px;
-	background-image:url('image/pic15.jpg');
+	background-image:url('../image/pic15.jpg');
 	background-size: 300px 300px;
+	border:1px;
+	border-radius:20px;
 }
 div[id="23"]{
 	height:300px;
@@ -215,8 +232,10 @@ div[id="23"]{
 	float:left;
 	margin-top:70px;
 	margin-left:70px;
-	background-image:url('image/pic17.jpg');
+	background-image:url('../image/pic17.jpg');
 	background-size: 300px 300px;
+	border:1px;
+	border-radius:20px;
 }
 div[id="24"]{
 	height:300px;
@@ -225,8 +244,10 @@ div[id="24"]{
 	float:left;
 	margin-top:70px;
 	margin-left:70px;
-	background-image:url('image/pic18.jpg');
+	background-image:url('../image/pic18.jpg');
 	background-size: 300px 300px;
+	border:1px;
+	border-radius:20px;
 }
 div[id="25"]
 {
@@ -250,10 +271,10 @@ width:170px;
 background-color:pink;
 margin-top: 20px;
 margin-left: 70px;
-background-image:url('image/pic19.jpg');
-	background-size: 170px 170px;
-	border:1px;
-	border-radius: 250px;
+background-image:url('../image/pic19.jpg');
+background-size: 170px 170px;
+border:1px;
+border-radius: 250px;
 }
 div[id="28"]
 {
@@ -271,9 +292,9 @@ div[id="29"]
 }
 .u
 {
-	padding-top:20px;
+	font-size: 30px;
+  margin-left:30px; 	
 color:white;
-display: inline;
 }
 .s{
 	margin-left: 200px;
@@ -314,6 +335,7 @@ margin-left:90px;
 height:30px;
 border:1px;
 border-radius: 20px;
+color: white;
 }
 .i{
 	margin-left: 20px;
@@ -354,6 +376,24 @@ span{
 	margin-left:200px;
 }
 i{
-	margin-left: 750px;
-	background-color: white;
+	margin-left: 650px;
+	padding-bottom: 20px;
+	
+	color: white;
+	
+}
+.e{
+	height:10px;
+	color:white;
+	margin-top: 30px;
+	margin-left:20px;
+}
+.h{
+	color:white;
+	margin-left:90px;
+
+}
+.w{
+	color:white;
+	text-align: center;
 }
